@@ -1,0 +1,17 @@
+.youtube_header{
+    text-align: center;
+}
+.youtube_header p{
+    display: inline;
+    font-family: "Raleway";
+    margin-left: 10px;
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    vertical-align: center;
+}
+.fl_yu7{
+    background:linear-gradient(135deg, #f5515f 0%,#c9293c 100%);
+    font-size:26px;
+    }
+

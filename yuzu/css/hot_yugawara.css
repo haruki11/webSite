@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/earlyaccess/hannari.css");
+@import url("header1.css");
+@import url("insta1.css");
+@import url("items.css");
+@import url("onsen1.css");
+@import url("youtube.css");
+@import url("footer.css");
+@import url("animation.css");
+
+*{
+    margin: 0;
+    /*border: 1px solid #ccc;*/
+    font-family: "Yuji Syuku";
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.none{
+    height:40px;
+}
+@media(min-width: 550px){
+    .none{
+        height: 60px;
+    }
+}
+@media(min-width: 1000px){
+    .none{
+        height: 80px;
+    }
+}
+
+
+

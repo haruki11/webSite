@@ -1,0 +1,90 @@
+#head{
+    display: none;
+}
+#pc_header{  
+    text-align: center;
+    height: 100px;
+    background-color: orange;
+    font-family: "Hannari";
+    opacity: 0.8;
+}
+
+header{
+    position: relative;
+}
+.video-area{
+    z-index: -1;
+    overflow: hidden;
+}
+video{
+    width: 100%;
+}
+.header_p{
+    font-size:25px;
+    top: 2%;
+    left: 5%;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+}
+
+.message{
+    text-align: center;
+    font-size: 15px;
+    top: 12%;
+    left: 55%;
+    color: white;
+    position: absolute;
+}
+
+h1{
+    color: white;
+    padding-top: 10px;
+    font-size: 40px;
+}
+@media (min-width: 450px){
+    .header_p{
+        font-size: 30px;
+    }
+    .message{
+        font-size: 18px;
+    }
+    h1{
+        padding-left: 50px;
+        padding-top: 10px;
+        font-size: 50px;
+    }
+}
+@media(min-width: 600px){
+    #header{
+        display: none;
+    }
+    #head{
+        display: block;
+    }
+}
+
+@media (min-width: 800px){
+    header{
+        text-align: left;
+    }
+}
+
+.image{
+    position: relative;
+}
+
+.top_img{
+    width: 100%;
+    height: auto;
+}
+
+.image p{
+    top: 5%;
+    left: 27%;
+    font-size: 80px;
+    font-family: "Hannari";
+    text-align: center;
+    color: white;
+    position: absolute;
+}

@@ -1,0 +1,128 @@
+.orange{
+    padding-top: 15px;
+    border-top: dotted 5px orange;
+}
+.green{
+    padding-top: 15px;
+    border-top: dotted 5px green;
+}
+.brown{
+    padding-top: 15px;
+    border-top: dotted 5px brown;
+}
+.items .horizontal-list{
+    vertical-align: top;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+
+}
+.items_header{
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.items .item{
+    text-align:center;
+    display: inline-block;
+    width: 40%;
+    height: auto;
+
+}
+.item img{
+    
+    width: 100%;
+    height: auto;
+}
+.scroll{
+    text-align: center;
+    margin-top: 20px;
+}
+@media (min-width: 300px){
+    .item_desc{
+        display: block;
+        margin: 0;
+        height: auto;
+        margin-left: 15px;
+        
+    }
+    .item_header{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .item_exp{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .item a{
+        font-size: 10px;
+        font-family: "Shippori Mincho";
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 5px 10px;
+        text-decoration: none;
+    }
+    .scroll{
+        font-size: 14px;
+    }
+}
+@media (min-width: 400px){
+    .item_header{
+        font-size: 20px;
+    }
+    .item_exp{
+        font-size: 18px;
+    }
+    .item a{
+        font-size: 18px;
+    }
+    .scroll{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 600px){
+    .items_header{
+        margin-bottom: 50px;
+        font-size: 60px;
+    }
+    .item_header{
+        font-size: 25px;
+    }
+    .item_exp{
+        font-size: 20px;
+    }
+    .item a{
+        font-size: 20px;
+    }
+    .scroll{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+}
+
+@media(min-width: 700px)
+{
+    .item_exp{
+        margin-bottom: 70px;
+    }
+}
+@media (min-width: 800px){
+    .items .item{
+        width: 30%;
+    }
+}
+
+@media (min-width: 1000px){
+    .item_header{
+        margin-bottom: 30px;
+        font-size: 40px;
+    }
+    .items .item{
+        width: 20%;
+    }
+}
+

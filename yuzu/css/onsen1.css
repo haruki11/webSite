@@ -1,0 +1,100 @@
+.onsen{
+    background-color: white;
+    height: auto;
+}
+
+h2{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Yuji Syuku";
+    margin-bottom: 20px;
+}
+@media (min-width: 600px){
+    h2{
+        margin-bottom: 50px;
+        font-size: 60px;
+    }
+}
+@media(min-width: 1000px){
+    h2{
+        font-size: 80px;
+    }
+}
+
+.boxes{
+    margin-left: 5%;
+    text-align: center;
+    width: 90%;
+}
+.boxes img{
+    margin-top: 30px;
+    width: 70%;
+}
+.onsen_header{
+    font-size: 20px;
+    font-weight: bold;
+}
+.onsen_desc{
+    margin-left: 15%;
+    width: 70%;
+}
+.onsen_exp{
+    margin-bottom: 15px;
+}
+.boxes a{
+    margin-top: 30px;
+    font-family: "Shippori Mincho";
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+
+@media (min-width: 600px){
+    .boxes{
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        padding-left: 15%;
+    }
+    .onsen_header{
+        font-size: 25px;
+    }
+    .onsen_exp{
+        font-size: 18px;
+    }
+    .onsen_desc{
+        margin: 0;
+        padding-left: 20px;
+        width: 100%;
+    }
+    .box{
+        padding-bottom: 40px;
+        box-sizing: border-box;
+        width: 50%;
+    }
+    .boxes img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1000px){
+    .boxes .onsen_header{
+        font-size: 30px;
+    }
+    .onsen_exp{
+        font-size: 25px;
+    }
+    .boxes a{
+        font-size: 20px;
+    }
+}
+@media (min-width: 1200px){
+    .onsen_desc{
+        padding-top: 10%;
+    }
+}
